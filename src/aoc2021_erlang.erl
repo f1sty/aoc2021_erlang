@@ -4,4 +4,4 @@
 
 -spec print_result(pos_integer(), pos_integer(), any()) -> ok.
 print_result(Day, Part, Result) ->
-  io:format("[day ~p] part ~p: ~p~n", [Day, Part, Result]).
+  io:format("[~p] ~p: ~p~n", [Day, Part, Result]).
