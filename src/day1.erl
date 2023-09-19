@@ -1,10 +1,8 @@
 -module(day1).
 
--import(aoc2021_erlang, [print_result/3]).
-
 -export([run/0]).
 
--define(RESULT, print_result(?MODULE, ?FUNCTION_NAME, Result)).
+-include_lib("src/defines.hrl").
 
 run() ->
   part1(),
