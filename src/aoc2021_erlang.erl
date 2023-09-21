@@ -8,4 +8,5 @@ print_result(Day, Part, Result) ->
 
 run_all() ->
   day1:run(),
-  day2:run().
+  day2:run(),
+  day3:run().
